@@ -2,25 +2,83 @@
 schema_version: "1.2"
 
 project:
-  name: "Your Workshop"
-  slug: "your-workshop"
-  summary: "Describe your workshop in one line."
-  entrypoint: "WORKSHOP.md"
+  name: "PyPong"
+  slug: "pypong"
+  summary: "Créez votre propre jeu Pong simplifié en Python avec TIC-80 !"
+  entrypoint: "intro.md"
 
 runtime:
   engine: "TIC-80"
   language: "python"
 
 documents:
-  - path: "WORKSHOP.md"
+  - path: "intro.md"
+  - path: "pypong.md"
 
 toc:
-  - document: WORKSHOP.md
+  - document: intro.md
     sections:
-      - title: My workshop
+      - title: Prise en main de TIC-80
         cf_code: []
         parts:
-          - title: Getting started
+          - title: Initialiser TIC-80 pour pouvoir utiliser le langage Python
             cf_code: []
-          - title: Next steps
+          - title: Reset “hello world”
             cf_code: []
+          - title: Affichage du pad et de l’écran de jeu
+            cf_code:
+              - PROG-01.A1.1
+            parts:
+              - title: Quelques explications
+                cf_code: []
+  - document: pypong.md
+    sections:
+      - title: Créer votre mini jeu
+        cf_code:
+          - PROG-09.A2.11
+          - TRANS-01.A1.12
+          - TRANS-02.A1.13
+        parts:
+          - title: Faire bouger le pad
+            cf_code: []
+            parts:
+              - title: 'Exercice 1 : Faites bouger le pad dans l’autre direction'
+                cf_code:
+                  - PROG-02.A1.2
+              - title: 'Exercice 2 : Limitez les mouvement du pad'
+                cf_code:
+                  - PROG-03.A1.3
+          - title: Créer la balle rebondissante
+            cf_code: []
+            parts:
+              - title: 'Exercice 1 : Dessinez  la balle'
+                cf_code:
+                  - PROG-04.A1.4
+              - title: 'Exercice 2 : Faire bouger la balle'
+                cf_code:
+                  - PROG-05.A1.5
+              - title: 'Exercice 3 : Faire rebondir la balle'
+                cf_code:
+                  - PROG-03.A2.6
+          - title: Gérer le respawn et la collision avec le pad
+            cf_code: []
+            parts:
+              - title: 'Exercice 1 : Respawn'
+                cf_code:
+                  - PROG-03.A2.7
+              - title: 'Exercice 3 : gérer la collision avec le pad'
+                cf_code: []
+          - title: Ajouter une interface
+            cf_code: []
+            parts:
+              - title: 'Exercice 1 : le score'
+                cf_code:
+                  - PROG-05.A1.8
+                  - PROG-03.A1.9
+              - title: 'Exercice 2 : Life & game over'
+                cf_code: []
+          - title: Pour aller plus loin
+            cf_code:
+              - PROG-08.A2.10
+      - title: Crédits
+        cf_code: []
