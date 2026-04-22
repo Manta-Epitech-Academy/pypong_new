@@ -42,7 +42,7 @@ Créez votre propre jeu Pong simplifié en Python avec TIC-80 !
     - Exercice 3 : Faire rebondir la balle
   - Gérer le respawn et la collision avec le pad
     - Exercice 1 : Respawn
-    - Exercice 3 : gérer la collision avec le pad
+    - Exercice 2 : gérer la collision avec le pad
   - Ajouter une interface
     - Exercice 1 : le score
     - Exercice 2 : Life & game over
