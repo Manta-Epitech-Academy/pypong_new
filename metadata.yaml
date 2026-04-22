@@ -66,7 +66,7 @@ toc:
               - title: 'Exercice 1 : Respawn'
                 cf_code:
                   - PROG-03.A2.7
-              - title: 'Exercice 3 : gérer la collision avec le pad'
+              - title: 'Exercice 2 : gérer la collision avec le pad'
                 cf_code: []
           - title: Ajouter une interface
             cf_code: []
