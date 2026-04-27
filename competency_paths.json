@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "notation": "Canonical competency observable path (slash). Maps legacy workshop cf_code.",
+  "by_cf_code": {
+    "PROG-01.A1.1": "PROG/01/A1/pypong/1",
+    "PROG-02.A1.2": "PROG/02/A1/pypong/1",
+    "PROG-03.A1.3": "PROG/03/A1/pypong/1",
+    "PROG-03.A1.9": "PROG/03/A1/pypong/1",
+    "PROG-03.A2.6": "PROG/03/A2/pypong/1",
+    "PROG-03.A2.7": "PROG/03/A2/pypong/1",
+    "PROG-04.A1.4": "PROG/04/A1/pypong/1",
+    "PROG-05.A1.5": "PROG/05/A1/pypong/1",
+    "PROG-05.A1.8": "PROG/05/A1/pypong/1",
+    "PROG-08.A2.10": "PROG/08/A2/pypong/1",
+    "PROG-09.A2.11": "PROG/09/A2/pypong/1"
+  }
+}

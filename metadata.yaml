@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/kevin-cazal/workshop-metadata-tools/main/metadata.schema.json
-schema_version: "1.3"
+schema_version: "1.4"
 
 project:
   name: "PyPong"
@@ -19,90 +19,123 @@ toc:
   - document: intro.md
     sections:
       - title: Prise en main de TIC-80
-        cf_code: []
         parts:
           - title: Initialiser TIC-80 pour pouvoir utiliser le langage Python
-            cf_code: []
           - title: Reset “hello world”
-            cf_code: []
           - title: Affichage du pad et de l’écran de jeu
-            cf_code:
-              - PROG-01.A1.1
             parts:
               - title: Quelques explications
-                cf_code: []
-            competency_path:
-              - PROG/01/A1/pypong/1
+            competency:
+              - domain: PROG
+                skill: '01'
+                level: A1
+                project: pypong
+                obs_index: 1
+                observable_id: pypong.1
   - document: pypong.md
     sections:
       - title: Créer votre mini jeu
-        cf_code:
-          - PROG-09.A2.11
-          - TRANS-01.A1.12
-          - TRANS-02.A1.13
         parts:
           - title: Faire bouger le pad
-            cf_code: []
             parts:
               - title: 'Exercice 1 : Faites bouger le pad dans l’autre direction'
-                cf_code:
-                  - PROG-02.A1.2
-                competency_path:
-                  - PROG/02/A1/pypong/1
+                competency:
+                  - domain: PROG
+                    skill: '02'
+                    level: A1
+                    project: pypong
+                    obs_index: 1
+                    observable_id: pypong.2
               - title: 'Exercice 2 : Limitez les mouvement du pad'
-                cf_code:
-                  - PROG-03.A1.3
-                competency_path:
-                  - PROG/03/A1/pypong/1
+                competency:
+                  - domain: PROG
+                    skill: '03'
+                    level: A1
+                    project: pypong
+                    obs_index: 1
+                    observable_id: pypong.3
           - title: Créer la balle rebondissante
-            cf_code: []
             parts:
               - title: 'Exercice 1 : Dessinez  la balle'
-                cf_code:
-                  - PROG-04.A1.4
-                competency_path:
-                  - PROG/04/A1/pypong/1
+                competency:
+                  - domain: PROG
+                    skill: '04'
+                    level: A1
+                    project: pypong
+                    obs_index: 1
+                    observable_id: pypong.4
               - title: 'Exercice 2 : Faire bouger la balle'
-                cf_code:
-                  - PROG-05.A1.5
-                competency_path:
-                  - PROG/05/A1/pypong/1
+                competency:
+                  - domain: PROG
+                    skill: '05'
+                    level: A1
+                    project: pypong
+                    obs_index: 1
+                    observable_id: pypong.5
               - title: 'Exercice 3 : Faire rebondir la balle'
-                cf_code:
-                  - PROG-03.A2.6
-                competency_path:
-                  - PROG/03/A2/pypong/1
+                competency:
+                  - domain: PROG
+                    skill: '03'
+                    level: A2
+                    project: pypong
+                    obs_index: 1
+                    observable_id: pypong.6
           - title: Gérer le respawn et la collision avec le pad
-            cf_code: []
             parts:
               - title: 'Exercice 1 : Respawn'
-                cf_code:
-                  - PROG-03.A2.7
-                competency_path:
-                  - PROG/03/A2/pypong/1
+                competency:
+                  - domain: PROG
+                    skill: '03'
+                    level: A2
+                    project: pypong
+                    obs_index: 1
+                    observable_id: pypong.7
               - title: 'Exercice 2 : gérer la collision avec le pad'
-                cf_code: []
           - title: Ajouter une interface
-            cf_code: []
             parts:
               - title: 'Exercice 1 : le score'
-                cf_code:
-                  - PROG-05.A1.8
-                  - PROG-03.A1.9
-                competency_path:
-                  - PROG/05/A1/pypong/1
-                  - PROG/03/A1/pypong/1
+                competency:
+                  - domain: PROG
+                    skill: '05'
+                    level: A1
+                    project: pypong
+                    obs_index: 1
+                    observable_id: pypong.8
+                  - domain: PROG
+                    skill: '03'
+                    level: A1
+                    project: pypong
+                    obs_index: 1
+                    observable_id: pypong.9
               - title: 'Exercice 2 : Life & game over'
-                cf_code: []
           - title: Pour aller plus loin
-            cf_code:
-              - PROG-08.A2.10
-            competency_path:
-              - PROG/08/A2/pypong/1
-        competency_path:
-          - PROG/09/A2/pypong/1
+            competency:
+              - domain: PROG
+                skill: '08'
+                level: A2
+                project: pypong
+                obs_index: 1
+                observable_id: pypong.10
+        competency:
+          - domain: PROG
+            skill: '09'
+            level: A2
+            project: pypong
+            obs_index: 1
+            observable_id: pypong.11
+          - domain: TRANS
+            skill: '01'
+            level: A1
+            project: pypong
+            obs_index: 12
+            observable_id: pypong.12
+          - domain: TRANS
+            skill: '02'
+            level: A1
+            project: pypong
+            obs_index: 13
+            observable_id: pypong.13
       - title: Crédits
-        cf_code: []
 observables:
   - id: pypong.1
     title: PROG-01 A1 (point atelier 1)
