@@ -52,4 +52,4 @@ Créez votre propre jeu Pong simplifié en Python avec TIC-80 !
 
 ---
 
-Validation tooling: [workshop-metadata-tools](https://github.com/Manta-Epitech-Academy/workshop-metadata-tools).
+Validation tooling: [workshop-metadata-tools](https://github.com/kevin-cazal/workshop-metadata-tools).

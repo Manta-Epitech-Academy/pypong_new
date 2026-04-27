@@ -7,4 +7,4 @@ on:
 
 jobs:
   verify:
-    uses: Manta-Epitech-Academy/workshop-metadata-tools/.github/workflows/verify-metadata-reusable.yml@main
+    uses: kevin-cazal/workshop-metadata-tools/.github/workflows/verify-metadata-reusable.yml@main
