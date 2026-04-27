@@ -5,7 +5,7 @@ Créez votre propre jeu Pong simplifié en Python avec TIC-80 !
 
 | Key | Value |
 |-----|-------|
-| **Schema version** | 1.2 |
+| **Schema version** | 1.3 |
 | **Slug** | `pypong` |
 
 ## Runtime
@@ -49,6 +49,22 @@ Créez votre propre jeu Pong simplifié en Python avec TIC-80 !
   - Pour aller plus loin
 - Crédits
 
+
+## Observables
+
+- **pypong.1** — PROG-01 A1 (point atelier 1)
+- **pypong.2** — PROG-02 A1 (point atelier 2)
+- **pypong.3** — PROG-03 A1 (point atelier 3)
+- **pypong.4** — PROG-04 A1 (point atelier 4)
+- **pypong.5** — PROG-05 A1 (point atelier 5)
+- **pypong.6** — PROG-03 A2 (point atelier 6)
+- **pypong.7** — PROG-03 A2 (point atelier 7)
+- **pypong.8** — PROG-05 A1 (point atelier 8)
+- **pypong.9** — PROG-03 A1 (point atelier 9)
+- **pypong.10** — PROG-08 A2 (point atelier 10)
+- **pypong.11** — PROG-09 A2 (point atelier 11)
+- **pypong.12** — TRANS-01 (référentiel atelier uniquement)
+- **pypong.13** — TRANS-02 (référentiel atelier uniquement)
 
 ---
 

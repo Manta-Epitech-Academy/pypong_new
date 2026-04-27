@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/kevin-cazal/workshop-metadata-tools/main/metadata.schema.json
-schema_version: "1.2"
+schema_version: "1.3"
 
 project:
   name: "PyPong"
@@ -31,6 +31,8 @@ toc:
             parts:
               - title: Quelques explications
                 cf_code: []
+            competency_path:
+              - PROG/01/A1/pypong/1
   - document: pypong.md
     sections:
       - title: Créer votre mini jeu
@@ -45,27 +47,39 @@ toc:
               - title: 'Exercice 1 : Faites bouger le pad dans l’autre direction'
                 cf_code:
                   - PROG-02.A1.2
+                competency_path:
+                  - PROG/02/A1/pypong/1
               - title: 'Exercice 2 : Limitez les mouvement du pad'
                 cf_code:
                   - PROG-03.A1.3
+                competency_path:
+                  - PROG/03/A1/pypong/1
           - title: Créer la balle rebondissante
             cf_code: []
             parts:
               - title: 'Exercice 1 : Dessinez  la balle'
                 cf_code:
                   - PROG-04.A1.4
+                competency_path:
+                  - PROG/04/A1/pypong/1
               - title: 'Exercice 2 : Faire bouger la balle'
                 cf_code:
                   - PROG-05.A1.5
+                competency_path:
+                  - PROG/05/A1/pypong/1
               - title: 'Exercice 3 : Faire rebondir la balle'
                 cf_code:
                   - PROG-03.A2.6
+                competency_path:
+                  - PROG/03/A2/pypong/1
           - title: Gérer le respawn et la collision avec le pad
             cf_code: []
             parts:
               - title: 'Exercice 1 : Respawn'
                 cf_code:
                   - PROG-03.A2.7
+                competency_path:
+                  - PROG/03/A2/pypong/1
               - title: 'Exercice 2 : gérer la collision avec le pad'
                 cf_code: []
           - title: Ajouter une interface
@@ -75,10 +89,71 @@ toc:
                 cf_code:
                   - PROG-05.A1.8
                   - PROG-03.A1.9
+                competency_path:
+                  - PROG/05/A1/pypong/1
+                  - PROG/03/A1/pypong/1
               - title: 'Exercice 2 : Life & game over'
                 cf_code: []
           - title: Pour aller plus loin
             cf_code:
               - PROG-08.A2.10
+            competency_path:
+              - PROG/08/A2/pypong/1
+        competency_path:
+          - PROG/09/A2/pypong/1
       - title: Crédits
         cf_code: []
+observables:
+  - id: pypong.1
+    title: PROG-01 A1 (point atelier 1)
+    observation: "Texte canonique et emplacement : /api/v1/resolve/PROG/01/A1/pypong/1 — Reproduire un code dans TIC-80, le
+      lancer et expliquer le comportement (clear screen + couleur bg) (ne pas dupliquer la prose complète du référentiel dans
+      le dépôt atelier).\n"
+  - id: pypong.2
+    title: PROG-02 A1 (point atelier 2)
+    observation: "Texte canonique et emplacement : /api/v1/resolve/PROG/02/A1/pypong/1 — Compléter par symétrie : touche gauche
+      décrémente → faire touche droite incrémente (ne pas dupliquer la prose complète du référentiel dans le dépôt atelier).\n"
+  - id: pypong.3
+    title: PROG-03 A1 (point atelier 3)
+    observation: "Texte canonique et emplacement : /api/v1/resolve/PROG/03/A1/pypong/1 — Limiter les mouvements du pad (condition
+      : position dépasse la zone écran) (ne pas dupliquer la prose complète du référentiel dans le dépôt atelier).\n"
+  - id: pypong.4
+    title: PROG-04 A1 (point atelier 4)
+    observation: "Texte canonique et emplacement : /api/v1/resolve/PROG/04/A1/pypong/1 — Déterminer le centre de l'écran à
+      partir de sa hauteur et largeur pour positionner la balle (ne pas dupliquer la prose complète du référentiel dans le
+      dépôt atelier).\n"
+  - id: pypong.5
+    title: PROG-05 A1 (point atelier 5)
+    observation: "Texte canonique et emplacement : /api/v1/resolve/PROG/05/A1/pypong/1 — Utiliser des variables vecteur vitesse
+      (ballspeedx, ballspeedy) pour déplacer la balle (ne pas dupliquer la prose complète du référentiel dans le dépôt atelier).\n"
+  - id: pypong.6
+    title: PROG-03 A2 (point atelier 6)
+    observation: "Texte canonique et emplacement : /api/v1/resolve/PROG/03/A2/pypong/1 — Inverser la vitesse de la balle en
+      fonction des collisions (rebond sur bordures) (ne pas dupliquer la prose complète du référentiel dans le dépôt atelier).\n"
+  - id: pypong.7
+    title: PROG-03 A2 (point atelier 7)
+    observation: "Texte canonique et emplacement : /api/v1/resolve/PROG/03/A2/pypong/1 — Gérer respawn + collision pad (suite
+      d'instructions logiques conditionnelles) (ne pas dupliquer la prose complète du référentiel dans le dépôt atelier).\n"
+  - id: pypong.8
+    title: PROG-05 A1 (point atelier 8)
+    observation: "Texte canonique et emplacement : /api/v1/resolve/PROG/05/A1/pypong/1 — Déclarer une variable score et l'incrémenter
+      sous condition (ne pas dupliquer la prose complète du référentiel dans le dépôt atelier).\n"
+  - id: pypong.9
+    title: PROG-03 A1 (point atelier 9)
+    observation: "Texte canonique et emplacement : /api/v1/resolve/PROG/03/A1/pypong/1 — Incrémenter le score uniquement quand
+      la balle rebondit sur le pad (ne pas dupliquer la prose complète du référentiel dans le dépôt atelier).\n"
+  - id: pypong.10
+    title: PROG-08 A2 (point atelier 10)
+    observation: "Texte canonique et emplacement : /api/v1/resolve/PROG/08/A2/pypong/1 — Ajouter système de vies + Game Over
+      à partir d'une description brève (ne pas dupliquer la prose complète du référentiel dans le dépôt atelier).\n"
+  - id: pypong.11
+    title: PROG-09 A2 (point atelier 11)
+    observation: "Texte canonique et emplacement : /api/v1/resolve/PROG/09/A2/pypong/1 — Jeu mini-pong jouable à 1 joueur
+      sans bug/plantage majeur (ne pas dupliquer la prose complète du référentiel dans le dépôt atelier).\n"
+  - id: pypong.12
+    title: TRANS-01 (référentiel atelier uniquement)
+    observation: "Code TRANS-01.A1.12 dans l'atelier ; pas encore de domaine TRANS dans competency-framework. Garder l'énoncé
+      dans l'atelier jusqu'à décision de modèle (voir docs/WORKSHOPS.md).\n"
+  - id: pypong.13
+    title: TRANS-02 (référentiel atelier uniquement)
+    observation: "Code TRANS-02.A1.13 dans l'atelier ; pas encore mappé dans l'API compétences.\n"
