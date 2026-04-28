@@ -1,5 +1,5 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/Manta-Epitech-Academy/workshop-metadata-tools/main/metadata.schema.json
-schema_version: "1.2"
+# yaml-language-server: $schema=https://raw.githubusercontent.com/kevin-cazal/workshop-metadata-tools/main/metadata.schema.json
+schema_version: "1.4"
 
 project:
   name: "PyPong"
@@ -19,66 +19,68 @@ toc:
   - document: intro.md
     sections:
       - title: Prise en main de TIC-80
-        cf_code: []
         parts:
           - title: Initialiser TIC-80 pour pouvoir utiliser le langage Python
-            cf_code: []
           - title: Reset “hello world”
-            cf_code: []
           - title: Affichage du pad et de l’écran de jeu
-            cf_code:
-              - PROG-01.A1.1
             parts:
               - title: Quelques explications
-                cf_code: []
+            observables:
+              - skill_path: /PROG/01/A1
+                id: pypong.1
   - document: pypong.md
     sections:
       - title: Créer votre mini jeu
-        cf_code:
-          - PROG-09.A2.11
-          - TRANS-01.A1.12
-          - TRANS-02.A1.13
         parts:
           - title: Faire bouger le pad
-            cf_code: []
             parts:
               - title: 'Exercice 1 : Faites bouger le pad dans l’autre direction'
-                cf_code:
-                  - PROG-02.A1.2
+                observables:
+                  - skill_path: /PROG/02/A1
+                    id: pypong.2
               - title: 'Exercice 2 : Limitez les mouvement du pad'
-                cf_code:
-                  - PROG-03.A1.3
+                observables:
+                  - skill_path: /PROG/03/A1
+                    id: pypong.3
           - title: Créer la balle rebondissante
-            cf_code: []
             parts:
               - title: 'Exercice 1 : Dessinez  la balle'
-                cf_code:
-                  - PROG-04.A1.4
+                observables:
+                  - skill_path: /PROG/04/A1
+                    id: pypong.4
               - title: 'Exercice 2 : Faire bouger la balle'
-                cf_code:
-                  - PROG-05.A1.5
+                observables:
+                  - skill_path: /PROG/05/A1
+                    id: pypong.5
               - title: 'Exercice 3 : Faire rebondir la balle'
-                cf_code:
-                  - PROG-03.A2.6
+                observables:
+                  - skill_path: /PROG/03/A2
+                    id: pypong.6
           - title: Gérer le respawn et la collision avec le pad
-            cf_code: []
             parts:
               - title: 'Exercice 1 : Respawn'
-                cf_code:
-                  - PROG-03.A2.7
+                observables:
+                  - skill_path: /PROG/03/A2
+                    id: pypong.7
               - title: 'Exercice 2 : gérer la collision avec le pad'
-                cf_code: []
           - title: Ajouter une interface
-            cf_code: []
             parts:
               - title: 'Exercice 1 : le score'
-                cf_code:
-                  - PROG-05.A1.8
-                  - PROG-03.A1.9
+                observables:
+                  - skill_path: /PROG/05/A1
+                    id: pypong.8
+                  - skill_path: /PROG/03/A1
+                    id: pypong.9
               - title: 'Exercice 2 : Life & game over'
-                cf_code: []
           - title: Pour aller plus loin
-            cf_code:
-              - PROG-08.A2.10
+            observables:
+              - skill_path: /PROG/08/A2
+                id: pypong.10
+        observables:
+          - skill_path: /PROG/09/A2
+            id: pypong.11
+          - skill_path: /TRANS/01/A1
+            id: pypong.12
+          - skill_path: /TRANS/02/A1
+            id: pypong.13
       - title: Crédits
-        cf_code: []
