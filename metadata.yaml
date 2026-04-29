@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/kevin-cazal/workshop-metadata-tools/main/metadata.schema.json
-schema_version: "1.4"
+schema_version: "1.5"
 
 project:
   name: "PyPong"
@@ -23,7 +23,7 @@ toc:
           - title: Initialiser TIC-80 pour pouvoir utiliser le langage Python
           - title: Reset “hello world”
           - title: Affichage du pad et de l’écran de jeu
-            parts:
+            subparts:
               - title: Quelques explications
             observables:
               - skill_path: /PROG/01/A1
@@ -33,7 +33,7 @@ toc:
       - title: Créer votre mini jeu
         parts:
           - title: Faire bouger le pad
-            parts:
+            subparts:
               - title: 'Exercice 1 : Faites bouger le pad dans l’autre direction'
                 observables:
                   - skill_path: /PROG/02/A1
@@ -43,7 +43,7 @@ toc:
                   - skill_path: /PROG/03/A1
                     id: 3
           - title: Créer la balle rebondissante
-            parts:
+            subparts:
               - title: 'Exercice 1 : Dessinez  la balle'
                 observables:
                   - skill_path: /PROG/04/A1
@@ -57,14 +57,14 @@ toc:
                   - skill_path: /PROG/03/A2
                     id: 6
           - title: Gérer le respawn et la collision avec le pad
-            parts:
+            subparts:
               - title: 'Exercice 1 : Respawn'
                 observables:
                   - skill_path: /PROG/03/A2
                     id: 7
               - title: 'Exercice 2 : gérer la collision avec le pad'
           - title: Ajouter une interface
-            parts:
+            subparts:
               - title: 'Exercice 1 : le score'
                 observables:
                   - skill_path: /PROG/05/A1
