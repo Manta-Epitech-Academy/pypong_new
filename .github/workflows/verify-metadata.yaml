@@ -8,4 +8,6 @@ on:
 
 jobs:
   verify:
+    permissions:
+      contents: write
     uses: Manta-Epitech-Academy/workshop-metadata-tools/.github/workflows/verify-metadata-reusable.yml@main
