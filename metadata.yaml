@@ -27,7 +27,7 @@ toc:
               - title: Quelques explications
             observables:
               - skill_path: /PROG/01/A1
-                id: pypong.1
+                id: 1
   - document: pypong.md
     sections:
       - title: Créer votre mini jeu
@@ -37,50 +37,50 @@ toc:
               - title: 'Exercice 1 : Faites bouger le pad dans l’autre direction'
                 observables:
                   - skill_path: /PROG/02/A1
-                    id: pypong.2
+                    id: 2
               - title: 'Exercice 2 : Limitez les mouvement du pad'
                 observables:
                   - skill_path: /PROG/03/A1
-                    id: pypong.3
+                    id: 3
           - title: Créer la balle rebondissante
             parts:
               - title: 'Exercice 1 : Dessinez  la balle'
                 observables:
                   - skill_path: /PROG/04/A1
-                    id: pypong.4
+                    id: 4
               - title: 'Exercice 2 : Faire bouger la balle'
                 observables:
                   - skill_path: /PROG/05/A1
-                    id: pypong.5
+                    id: 5
               - title: 'Exercice 3 : Faire rebondir la balle'
                 observables:
                   - skill_path: /PROG/03/A2
-                    id: pypong.6
+                    id: 6
           - title: Gérer le respawn et la collision avec le pad
             parts:
               - title: 'Exercice 1 : Respawn'
                 observables:
                   - skill_path: /PROG/03/A2
-                    id: pypong.7
+                    id: 7
               - title: 'Exercice 2 : gérer la collision avec le pad'
           - title: Ajouter une interface
             parts:
               - title: 'Exercice 1 : le score'
                 observables:
                   - skill_path: /PROG/05/A1
-                    id: pypong.8
+                    id: 8
                   - skill_path: /PROG/03/A1
-                    id: pypong.9
+                    id: 9
               - title: 'Exercice 2 : Life & game over'
           - title: Pour aller plus loin
             observables:
               - skill_path: /PROG/08/A2
-                id: pypong.10
+                id: 10
         observables:
           - skill_path: /PROG/09/A2
-            id: pypong.11
+            id: 11
           - skill_path: /TRANS/01/A1
-            id: pypong.12
+            id: 12
           - skill_path: /TRANS/02/A1
-            id: pypong.13
+            id: 13
       - title: Crédits
