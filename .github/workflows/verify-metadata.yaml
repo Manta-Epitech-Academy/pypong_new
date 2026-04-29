@@ -3,6 +3,3 @@ name: Verify metadata
 on:
   pull_request:
 
-jobs:
-  verify:
-    uses: Manta-Epitech-Academy/workshop-metadata-tools/.github/workflows/verify-metadata-reusable.yml@main
