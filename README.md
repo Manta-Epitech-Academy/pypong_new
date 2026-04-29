@@ -5,7 +5,7 @@ Créez votre propre jeu Pong simplifié en Python avec TIC-80 !
 
 | Key | Value |
 |-----|-------|
-| **Schema version** | 1.2 |
+| **Schema version** | 1.5 |
 | **Slug** | `pypong` |
 
 ## Runtime
