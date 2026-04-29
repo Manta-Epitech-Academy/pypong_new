@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/kevin-cazal/workshop-metadata-tools/main/metadata.schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/kevin-cazal/workshop-metadata-tools/feat/toc-schema-1.5-section-part-subpart/metadata.schema.json
 schema_version: "1.5"
 
 project:
