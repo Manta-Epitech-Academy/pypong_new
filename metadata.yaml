@@ -79,8 +79,8 @@ toc:
         observables:
           - skill_path: /PROG/09/A2
             id: 11
-          - skill_path: /TRANS/01/A1
+          - skill_path: /TRANSVERSE/01/A1
             id: 12
-          - skill_path: /TRANS/02/A1
+          - skill_path: /TRANSVERSE/02/A1
             id: 13
       - title: Crédits
